@@ -1,0 +1,32 @@
+<script src="assets/js/jquery-2.1.1.js"></script>
+    <!-- Data picker -->
+    <script src="assets/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+
+    <!-- MENU -->
+    <script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $('.test').datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: false,
+                forceParse: false,
+                calendarWeeks: true,
+                autoclose: true
+            });
+
+        });
+    </script>
+
+    <div class="form-group" id="data_1">
+        <label class="font-noraml">Simple data input format</label>
+            <div class="input-group date">
+                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                    <input  type="text" class="form-control test" value="03/04/2014">
+            </div>
+    </div>
+                            
+
+
+                            <link href="assets/css/plugins/datapicker/datepicker3.css" rel="stylesheet">
